@@ -7,14 +7,22 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header class="cabeca">
+    <header class="cabeca"> <!--A cabeça do código (Cabeçalho do site)-->
         <h1>Quiz Futebol</h1>
     </header>
-    <div class="quiz-container">
+    <div class="quiz-container"> <!--Cria uma divisória, divisão, como se fosse um quadro, 
+                                  dentro do body, ou div (Sem especificação)-->
         <header class="cabeca_div">
             <div class="progress" id="progress">Pergunta 1 de 5</div>
         </header>
+       
+        <main id="quiz-body">
+            <h2 id="questions">Carregando pergunta...</h2>
+            <div class="options-container" id="options"></div>
+        </main>
+
     </div>
+
     <script src="script.js"></script>
 </body>
 </html>
